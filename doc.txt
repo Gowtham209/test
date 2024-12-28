@@ -1,0 +1,12 @@
+This File is Created in Local repo with a Branch "master" before cloning or connecting to a Remote repo [Which is now Empty]
+
+git remote add remoteRepo https://github.com/Gowtham209/test.git
+git push -u remoteRepo    master
+            RepoName     LocalBranchName 
+
+
+Important:
+-u: This flag stands for --set-upstream. 
+It sets the remote branch as the upstream branch for the local branch.
+This means that future git push and git pull commands will know which 
+remote branch to interact with by default.
