@@ -1,0 +1,3 @@
+This File is sample.txt which is been created in the remote repo with git ui so the Local Master branch will also doesn't know About this file creation ONLY if that Branch use the
+"git fetch" when that master branch is in Tracking of this repo it will Download this file.
+SO i don't think that newly created branch "branchTwo" doesn't about this File even about this Remote repo.
